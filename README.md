@@ -1,8 +1,18 @@
 # Assignment 3 - SPL
+# Client-Server Messaging System
+A robust, high-performance messaging application developed as part of the Systems Programming course.
 
+## Overview
+This project demonstrates the implementation of a concurrent client-server architecture using the STOMP protocol. It highlights advanced concepts such as multi-threading, synchronization, and protocol design, integrating a Java-based server with a C++ client.
+
+## Core Challenges Solved
+- **Concurrency**: Implemented both Thread-Per-Client (TPC) and Reactor server models to handle multiple concurrent users efficiently.
+- **Protocol Implementation**: Built a robust messaging system based on the STOMP protocol.
+- **System Integration**: Managed inter-process communication between a Java server and a C++ client with a shared SQL database.
+- 
 ## Names
-David Vaiser - 327297651
-Shaked Sitruk - 315105833
+David Vaiser 
+Shaked Sitruk 
 
 ## Submission date
 21/01/2026
