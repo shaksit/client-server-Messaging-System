@@ -1,0 +1,2223 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< bgu.spl:server >---------------------------
+[INFO] Building server 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:3.6.3:java (default-cli) @ server ---
+Server started
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: summary_tester
+[Server] Added and connected a new user: summary_tester
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /Germany_Japan with id: 0
+[Debug] Client 0 subscribed to /Germany_Japan with subId: 0
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: SEND
+[Server] Tracked file upload: input/events1.json by user: summary_tester
+[Debug] Broadcasting to channel: /Germany_Japan - Subscribers count: 1
+[Debug] Sending to client 0 (SubId: 0)
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 0
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_3_1768996380184
+[Server] Handling CONNECT for user: user_stress_6_1768996380184
+[Server] Handling CONNECT for user: user_stress_12_1768996380185
+[Server] Handling CONNECT for user: user_stress_8_1768996380185
+[Server] Added and connected a new user: user_stress_3_1768996380184
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_7_1768996380184
+[Server] Added and connected a new user: user_stress_6_1768996380184
+[Server] Added and connected a new user: user_stress_8_1768996380185
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_12_1768996380185
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_7_1768996380184
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_14_1768996380185
+[Server] Handling CONNECT for user: user_stress_10_1768996380185
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_16_1768996380186
+[Server] Handling CONNECT for user: user_stress_2_1768996380184
+[Server] Added and connected a new user: user_stress_14_1768996380185
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_19_1768996380186
+[Server] Added and connected a new user: user_stress_16_1768996380186
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_10_1768996380185
+[Server] Handling CONNECT for user: user_stress_0_1768996380183
+[Server] Added and connected a new user: user_stress_2_1768996380184
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_19_1768996380186
+[Server] Handling CONNECT for user: user_stress_9_1768996380185
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_18_1768996380186
+[Server] Added and connected a new user: user_stress_0_1768996380183
+[Server] Handling CONNECT for user: user_stress_13_1768996380185
+[Server] Added and connected a new user: user_stress_9_1768996380185
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_1_1768996380184
+[Server] Added and connected a new user: user_stress_18_1768996380186
+[Server] Handling CONNECT for user: user_stress_4_1768996380184
+[Server] Added and connected a new user: user_stress_13_1768996380185
+[Server] Received command: CONNECT
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_1_1768996380184
+[Server] Handling CONNECT for user: user_stress_11_1768996380185
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: user_stress_17_1768996380186
+[Server] Added and connected a new user: user_stress_4_1768996380184
+[Server] Handling CONNECT for user: user_stress_5_1768996380184
+[Server] Received command: CONNECT
+[Server] Added and connected a new user: user_stress_11_1768996380185
+[Server] Handling CONNECT for user: user_stress_15_1768996380185
+[Server] Added and connected a new user: user_stress_17_1768996380186
+[Server] Received command: SUBSCRIBE
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id3
+[Server] Added and connected a new user: user_stress_5_1768996380184
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id6
+[Server] Received command: SUBSCRIBE
+[Server] Added and connected a new user: user_stress_15_1768996380185
+[Debug] Client 4 subscribed to /stress-topic with subId: id3
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id8
+[Debug] Client 1 subscribed to /stress-topic with subId: id6
+[Debug] Client 2 subscribed to /stress-topic with subId: id8
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id12
+[Server] Received command: SUBSCRIBE
+[Debug] Client 5 subscribed to /stress-topic with subId: id12
+[Server] Received command: SUBSCRIBE
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id16
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id7
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id10
+[Debug] Client 6 subscribed to /stress-topic with subId: id16
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id14
+[Server] Received command: SUBSCRIBE
+[Debug] Client 8 subscribed to /stress-topic with subId: id10
+[Debug] Client 3 subscribed to /stress-topic with subId: id7
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id2
+[Debug] Client 7 subscribed to /stress-topic with subId: id14
+[Debug] Client 9 subscribed to /stress-topic with subId: id2
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id19
+[Server] Received command: SUBSCRIBE
+[Debug] Client 10 subscribed to /stress-topic with subId: id19
+[Server] Received command: SUBSCRIBE
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id18
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id0
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id13
+[Debug] Client 13 subscribed to /stress-topic with subId: id18
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id9
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id1
+[Debug] Client 14 subscribed to /stress-topic with subId: id13
+[Debug] Client 11 subscribed to /stress-topic with subId: id0
+[Server] Received command: SUBSCRIBE
+[Debug] Client 15 subscribed to /stress-topic with subId: id1
+[Debug] Client 12 subscribed to /stress-topic with subId: id9
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id4
+[Server] Received command: SUBSCRIBE
+[Debug] Client 16 subscribed to /stress-topic with subId: id4
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id17
+[Server] Received command: SUBSCRIBE
+[Debug] Client 18 subscribed to /stress-topic with subId: id17
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id11
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id15
+[Server] Received command: DISCONNECT
+[Server] Handling SUBSCRIBE to topic: /stress-topic with id: id5
+[Server] Handling DISCONNECT for connectionId: 4
+[Debug] Client 20 subscribed to /stress-topic with subId: id15
+[Debug] Client 17 subscribed to /stress-topic with subId: id11
+[Server] Received command: DISCONNECT
+[Debug] Client 19 subscribed to /stress-topic with subId: id5
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 1
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 5
+[Server] Received command: DISCONNECT
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 2
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 8
+[Server] Handling DISCONNECT for connectionId: 6
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 3
+[Server] Handling DISCONNECT for connectionId: 7
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 9
+[Server] Received command: DISCONNECT
+[Server] Received command: DISCONNECT
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 13
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 14
+[Server] Handling DISCONNECT for connectionId: 10
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 11
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 15
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 12
+[Server] Handling DISCONNECT for connectionId: 16
+[Server] Received command: DISCONNECT
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 20
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 18
+[Server] Handling DISCONNECT for connectionId: 17
+[Server] Received command: DISCONNECT
+[Server] Handling DISCONNECT for connectionId: 19
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: heavy_listener
+[Server] Added and connected a new user: heavy_listener
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /heavy-topic with id: 100
+[Debug] Client 21 subscribed to /heavy-topic with subId: 100
+[Server] Received command: CONNECT
+[Server] Handling CONNECT for user: heavy_reporter
+[Server] Added and connected a new user: heavy_reporter
+[Server] Received command: SUBSCRIBE
+[Server] Handling SUBSCRIBE to topic: /heavy-topic with id: 200
+[Debug] Client 22 subscribed to /heavy-topic with subId: 200
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+[Server] Received command: SEND
+[Server] Tracked file upload: heavy_game by user: heavy_reporter
+[Debug] Broadcasting to channel: /heavy-topic - Subscribers count: 2
+[Debug] Sending to client 21 (SubId: 100)
+[Debug] Sending to client 22 (SubId: 200)
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun

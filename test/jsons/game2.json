@@ -1,0 +1,26 @@
+{
+    "team a": "Argentina",
+    "team b": "France",
+    "events": [
+        {
+            "event name": "Goal",
+            "time": "23",
+            "description": "Messi scores the opener!"
+        },
+        {
+            "event name": "Goal",
+            "time": "36",
+            "description": "Di Maria doubles the lead!"
+        },
+        {
+            "event name": "Goal",
+            "time": "80",
+            "description": "Mbappe pulls one back!"
+        },
+        {
+            "event name": "Goal",
+            "time": "81",
+            "description": "Mbappe equalizes! Incredible!"
+        }
+    ]
+}

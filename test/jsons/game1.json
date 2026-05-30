@@ -1,0 +1,26 @@
+{
+    "team a": "Germany",
+    "team b": "Japan",
+    "events": [
+        {
+            "event name": "Kickoff",
+            "time": "0",
+            "description": "The match begins!"
+        },
+        {
+            "event name": "Goal",
+            "time": "33",
+            "description": "Gundogan scores from a penalty."
+        },
+        {
+            "event name": "Goal",
+            "time": "75",
+            "description": "Doan equalizes for Japan!"
+        },
+        {
+            "event name": "Goal",
+            "time": "83",
+            "description": "Asano scores the winner!"
+        }
+    ]
+}
